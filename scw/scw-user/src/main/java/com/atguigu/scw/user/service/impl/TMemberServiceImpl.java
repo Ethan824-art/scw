@@ -42,6 +42,7 @@ public class TMemberServiceImpl implements TMemberService {
 		
 		try {
 			
+			//github实验
 			TMember tMember = new TMember();
 			BeanUtils.copyProperties(vo, tMember);		
 			tMember.setUsername(vo.getLoginacct());	
